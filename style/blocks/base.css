@@ -1,0 +1,117 @@
+html {
+  font-size: 16px;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 1.42;
+  font-weight: 400;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.wrapper {
+  background: #001821;
+}
+
+.wrapper__content--main {
+	position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1141px;
+  position: relative;
+}
+
+.button {
+  display: inline-block;
+  align-self: center;
+  text-transform: uppercase;
+  padding: 20px;
+  width: 168px;
+  height: 55px;
+  text-align: center;
+  background: #F5170E;
+  border-radius: 35px;
+
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.button--light {
+	background: #ffffff;
+	border: 1px solid #F5170E;
+	color:#F5170E;
+}
+
+.title {
+	font-size: 36px;
+  line-height: 42px;
+	font-weight: bold;
+}
+
+.title--fire::after{
+	content: url(../../img/flame.png);
+	margin-left: 12px;
+}

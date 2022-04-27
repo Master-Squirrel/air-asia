@@ -1,0 +1,40 @@
+.paginator {
+text-align: center;
+margin-top: 57px;
+}
+.paginator__text {
+  display:  inline-block;
+  margin-right: 25px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.paginator__list {
+  display: inline-block;
+
+  align-self: center;
+  vertical-align: middle;
+}
+
+.paginator__item {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 21px;
+  margin-right: 24px;
+
+  width: 32px;
+  height: 32px;
+  border-radius: 15px;
+  
+
+
+  cursor: pointer;
+}
+.paginator__item:last-child {
+margin-right: 0px;
+}
+.paginator__item:hover {
+  color:#F5170E;
+  background: #fff;
+  
+
+}
