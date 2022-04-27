@@ -1,0 +1,44 @@
+.about {
+ 
+  position: relative;
+  background: url(../../img/bg2.jpg);
+
+  min-height: 700px;
+}
+
+.about__img {
+  position: absolute;
+
+}
+
+.about__us {
+  position: absolute;
+  width: 785px;
+  height: 455px;
+  right: 0px;
+  margin-top: 242px;
+  z-index: 10;
+}
+.about__content {
+  position: absolute;
+  padding-top: 70px;
+  padding-left: 81px;
+}
+
+.about__description {
+  color: #060606;
+  margin-top: 37px;
+  margin-bottom: 43px;
+  width: 502px;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.about__gates {
+  position: absolute;
+  min-width: 490px;
+  min-height: 505px;
+  /* margin: -97px 0 0 -400px; */
+  margin-top: 152px;
+  
+}
