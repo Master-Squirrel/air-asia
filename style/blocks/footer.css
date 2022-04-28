@@ -4,7 +4,8 @@
   height: 77px;
 }
 
-.social__item, .social {
+.social__item,
+.social {
   display: inline-block;
 }
 
@@ -14,10 +15,17 @@
   vertical-align: middle;
 }
 
+.social__item {
+  margin-right: 10px;
+}
+.social__item:last-child {
+  margin-right: 0px;
+}
 .contacts {
   font-style: normal;
 
 }
+
 .contacts__description {
   color: #9a9a9a;
   font-size: 11px;

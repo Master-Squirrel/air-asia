@@ -29,13 +29,16 @@
 }
 
 .news__content {
-  position: absolute;
+ position: absolute;
  bottom: 47px;
  padding-left: 31px;
 }
-
+.news__content--second {
+  bottom: 23px;
+  padding-left: 31px;
+}
 .news__date {
-  font-size: 14px;
+font-size: 14px;
 line-height: 21px;
 }
 
