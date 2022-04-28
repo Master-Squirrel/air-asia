@@ -1,0 +1,26 @@
+.footer {
+  margin-top: 100px;
+  padding-bottom: 100px;
+  height: 77px;
+}
+
+.social__item, .social {
+  display: inline-block;
+}
+
+.social {
+  margin-left: 274px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.contacts {
+  font-style: normal;
+
+}
+.contacts__description {
+  color: #9a9a9a;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: end;
+}
