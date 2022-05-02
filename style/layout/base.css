@@ -32,6 +32,9 @@ button {
 ul {
   padding: 0;
   margin: 0;
+}
+
+ul li {
   list-style: none;
 }
 
@@ -50,10 +53,6 @@ p {
   padding: 0;
 }
 
-button {
-  cursor: pointer;
-}
-
 a {
   color: inherit;
   cursor: pointer;
@@ -68,10 +67,19 @@ img {
 
 .wrapper {
   background: #001821;
+  overflow: hidden;
+  min-width: 1141px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__content {
+  flex: 1;
 }
 
 .wrapper__content--main {
-	position: relative;
+  position: relative;
 }
 
 .container {
@@ -79,44 +87,6 @@ img {
   width: 100%;
   height: 100%;
   max-width: 1141px;
-	min-width: 1141px; /* Временно установлено для того, чтобы блоки не съезжали при уменьшении размера окна */
+  /* min-width: 1141px; Временно установлено для того, чтобы блоки не съезжали при уменьшении размера окна */
   position: relative;
-}
-
-.button {
-  display: inline-block;
-  align-self: center;
-  text-transform: uppercase;
-  padding: 20px;
-  width: 135px;
-  height: 55px;
-  text-align: center;
-  background: #F5170E;
-  border-radius: 35px;
-
-  color: #fff;
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: bold;
-}
-
-.button--light {
-	background: #ffffff;
-	border: 1px solid #F5170E;
-	color:#F5170E;
-}
-
-.title {
-	font-size: 36px;
-  line-height: 42px;
-	font-weight: bold;
-}
-
-.title--fire::after{
-	content: url(../../img/flame.png);
-	margin-left: 12px;
-}
-
-.title--dark {
-	color: #000;
 }

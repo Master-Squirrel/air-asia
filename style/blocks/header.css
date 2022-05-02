@@ -1,12 +1,11 @@
 .header {
   height: 77px;
-  
+  /* position: relative; */
 }
 
 .header__img {
   position: absolute;
-  width: 100%;
-  
+  min-width: 100%;
   
 }
 
@@ -26,17 +25,15 @@
   float: left;
 }
 
-.contacts {
-  float: right;
-}
-
 .menu {
   margin-left: 79px;
   margin-top: 43px;
+  
 }
 
 .menu__item {
   margin-right: 54px;
+  vertical-align: middle;
 }
 
 .menu__item:last-child {
@@ -45,18 +42,4 @@
 .menu__link {
 	font-size: 14px;
   line-height: 16px;
-}
-.contacts__phone {
-  font-size: 26px;
-  line-height: 30px;
-  color: #fff;
-  font-style: normal;
-}
-
-.contacts_info {
-  font-size: 13px;
-  line-height: 20px;
-  text-decoration-line: underline;
-  font-style: normal;
-  text-align: end;
 }

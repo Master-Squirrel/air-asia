@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  align-self: center;
+  text-transform: uppercase;
+  padding: 18px 40px;
+  cursor: pointer;
+  text-align: center;
+  background: #F5170E;
+  border-radius: 35px;
+
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.button--light {
+	background: #ffffff;
+	border: 1px solid #F5170E;
+	color:#F5170E;
+}

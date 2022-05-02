@@ -1,0 +1,17 @@
+.contacts {
+  float: right;
+}
+.contacts__phone {
+  font-size: 26px;
+  line-height: 30px;
+  color: #fff;
+  font-style: normal;
+}
+
+.contacts_info {
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  font-style: normal;
+  text-align: end;
+}

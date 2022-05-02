@@ -1,7 +1,7 @@
 .about {
  
   position: relative;
-  background: url(../../img/bg2.jpg);
+  background: url(../../img/bg2.jpg) no-repeat -50px;
 
   min-height: 700px;
 }
