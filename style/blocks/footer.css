@@ -1,7 +1,7 @@
 .footer {
   margin-top: 100px;
-  padding-bottom: 100px;
-  height: 77px;
+  margin-bottom: 57px;
+  
 }
 
 .social__item,
@@ -18,9 +18,11 @@
 .social__item {
   margin-right: 10px;
 }
+
 .social__item:last-child {
   margin-right: 0px;
 }
+
 .contacts {
   font-style: normal;
 
@@ -31,4 +33,10 @@
   font-size: 11px;
   line-height: 20px;
   text-align: end;
+}
+
+.footer__container {
+  border-top: 2px solid rgba(255,255,255,.1) ;
+  padding-top: 45px;
+ 
 }

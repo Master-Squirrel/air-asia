@@ -1,11 +1,17 @@
 .about {
  
   position: relative;
-  background: url(../../img/bg2.jpg) no-repeat -50px;
-
+  /* background: url(../../img/bg2.jpg) no-repeat -150px -150px; */
+  
   min-height: 700px;
 }
 
+.about__bg {
+  position: absolute;
+  width: 100%;
+  left: 50px;
+  top: -70px;
+}
 .about__img {
   position: absolute;
 
