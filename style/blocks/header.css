@@ -2,18 +2,21 @@
   height: 77px;
   /* position: relative; */
 }
-
+.header__container {
+  display: flex;
+  justify-content:space-between;
+}
 .header__img {
   position: absolute;
-  min-width: 100%;
-  
+  min-width: 100%; 
 }
+
 
 .logo,
 .menu,
 .menu__item,
 .contacts {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .logo,
@@ -27,13 +30,18 @@
 
 .menu {
   margin-left: 79px;
-  margin-top: 43px;
-  
+  margin-top: 43px; 
+  flex: 1;
 }
 
+.menu__list {
+  display: flex;
+  
+  
+}
 .menu__item {
   margin-right: 54px;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .menu__item:last-child {

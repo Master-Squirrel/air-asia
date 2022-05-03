@@ -1,12 +1,12 @@
 .paginator {
   text-align: center;
-  margin-top: 57px;
+  margin-top: 55px;
   height: 100px;
 }
 
 .paginator__text {
   display: inline-block;
-  margin-right: 25px;
+  margin-right: 50px;
 }
 
 .paginator__list {

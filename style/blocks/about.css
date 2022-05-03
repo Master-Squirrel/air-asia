@@ -3,7 +3,7 @@
   position: relative;
   /* background: url(../../img/bg2.jpg) no-repeat -150px -150px; */
   
-  min-height: 700px;
+  min-height: 551px;
 }
 
 .about__bg {
@@ -22,13 +22,13 @@
   width: 785px;
   height: 455px;
   right: 0px;
-  margin-top: 242px;
+  margin-top: 170px;
   z-index: 10;
 }
 .about__content {
   position: absolute;
-  padding-top: 70px;
-  padding-left: 81px;
+  padding-top: 77px;
+  padding-left: 77px;
 }
 
 .about__description {
@@ -45,6 +45,6 @@
   min-width: 490px;
   min-height: 505px;
   /* margin: -97px 0 0 -400px; */
-  margin-top: 145px;
+  margin-top: 72px;
   
 }

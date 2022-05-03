@@ -1,18 +1,23 @@
 .footer {
-  margin-top: 100px;
+  margin-top: 97px;
   margin-bottom: 57px;
-  
 }
 
-.social__item,
-.social {
-  display: inline-block;
+.footer__container {
+  border-top: 2px solid rgba(255, 255, 255, .1);
+  padding-top: 45px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.social {
-  margin-left: 274px;
-  position: relative;
-  vertical-align: middle;
+.social__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 70px;
+  padding-top: 38px;
 }
 
 .social__item {
@@ -25,7 +30,6 @@
 
 .contacts {
   font-style: normal;
-
 }
 
 .contacts__description {
@@ -33,10 +37,4 @@
   font-size: 11px;
   line-height: 20px;
   text-align: end;
-}
-
-.footer__container {
-  border-top: 2px solid rgba(255,255,255,.1) ;
-  padding-top: 45px;
- 
 }

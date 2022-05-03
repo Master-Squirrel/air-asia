@@ -1,5 +1,5 @@
 .news {
-  margin-top: 127px; 
+  margin-top: 134px; 
 }
 
 .news__list {
@@ -30,12 +30,12 @@
 
 .news__content {
  position: absolute;
- bottom: 47px;
+ bottom: 43px;
  padding-left: 31px;
 }
 .news__content--second {
-  bottom: 23px;
-  padding-left: 31px;
+  bottom: 28px;
+  padding-left: 28px;
 }
 .news__date {
 font-size: 14px;
