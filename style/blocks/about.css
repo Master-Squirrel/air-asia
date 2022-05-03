@@ -1,8 +1,6 @@
 .about {
- 
-  position: relative;
-  /* background: url(../../img/bg2.jpg) no-repeat -150px -150px; */
-  
+
+  position: relative;  
   min-height: 551px;
 }
 
@@ -12,9 +10,9 @@
   left: 50px;
   top: -70px;
 }
+
 .about__img {
   position: absolute;
-
 }
 
 .about__us {
@@ -25,6 +23,7 @@
   margin-top: 170px;
   z-index: 10;
 }
+
 .about__content {
   position: absolute;
   padding-top: 77px;
@@ -46,5 +45,4 @@
   min-height: 505px;
   /* margin: -97px 0 0 -400px; */
   margin-top: 72px;
-  
 }
