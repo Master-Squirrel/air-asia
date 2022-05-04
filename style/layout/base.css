@@ -64,7 +64,7 @@ img {
 }
 
 .wrapper {
-  background: #001821;
+  /* background: #001821; */
   overflow: hidden;
   min-width: 1141px;
   min-height: 100%;
@@ -78,6 +78,12 @@ img {
 
 .wrapper__content--main {
   position: relative;
+  background: url("../../img/bg.jpg") no-repeat;
+}
+.wrapper__content--services {
+  
+  background: url("../../img/headline1.png") no-repeat;
+  
 }
 
 .container {
@@ -86,6 +92,15 @@ img {
   height: 100%;
   max-width: 1141px;
   /* min-width: 1141px; Временно установлено для того, чтобы блоки не съезжали при уменьшении размера окна */
-  position: relative;
+  position: relative;  
+}
+
+.container--services {
+  display: flex;
+  justify-content: space-between;
   
+}
+
+.info-left__menu {
+  flex: 1;
 }

@@ -1,14 +1,15 @@
 .header {
   height: 77px;
 }
+
 .header__container {
   display: flex;
   justify-content:space-between;
 }
+
 .header__img {
   position: absolute;
-  width: 100%;
-  
+  width: 100%; 
 }
 
 .logo,
@@ -19,30 +20,12 @@
 .logo {
   float: left;
 }
-
 .logo__img--services {
   width: 100px;
 }
+
 .menu {
   margin-left: 79px;
   margin-top: 43px; 
   flex: 1;
-}
-
-.menu__list {
-  display: flex;
-  
-  
-}
-.menu__item {
-  margin-right: 54px;
-  /* vertical-align: middle; */
-}
-
-.menu__item:last-child {
-  margin-right: 0px;
-}
-.menu__link {
-	font-size: 14px;
-  line-height: 16px;
 }
