@@ -5,7 +5,7 @@
 
 .footer__container {
   border-top: 2px solid rgba(255, 255, 255, .1);
-
+ padding-top: 10px;
   
   display: flex;
   justify-content: space-between;
