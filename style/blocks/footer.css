@@ -1,12 +1,12 @@
 .footer {
-  margin-top: 97px;
-  margin-bottom: 57px;
+  padding-bottom: 42px;
+  background-color: #001821;
 }
 
 .footer__container {
   border-top: 2px solid rgba(255, 255, 255, .1);
-  padding-top: 45px;
 
+  
   display: flex;
   justify-content: space-between;
   align-items: center;

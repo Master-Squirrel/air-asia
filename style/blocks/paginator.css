@@ -4,6 +4,21 @@
   height: 100px;
 }
 
+.paginator--services {
+  color: #000;
+  margin-top: 20px;
+}
+
+.paginator--services .paginator__num {
+color: #000;
+}
+.paginator--services .paginator__num:hover {
+  color: #fff;
+}
+.paginator--services .paginator__num:before {
+  background-color: #F5170E;
+}
+
 .paginator__text {
   display: inline-block;
   margin-right: 50px;
@@ -34,6 +49,8 @@
   z-index: 10;
   position: relative;
 }
+
+
 
 .paginator__num:hover {
   color: #F5170E;

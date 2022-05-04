@@ -1,0 +1,29 @@
+.partners {
+ background-color: #F4F5F5;
+ margin-top:10px;
+ margin-bottom: 51px;
+}
+
+.partners__header {
+  color: #1A1B1E;
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 88px;
+  padding-bottom: 80px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.partners__item {
+  padding-right: 30px;
+}
+
+.partners__logo {
+margin-bottom: 72px;
+}

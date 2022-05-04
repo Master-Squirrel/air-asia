@@ -9,8 +9,12 @@
 .header__img {
   position: absolute;
   min-width: 100%; 
-}
 
+}
+.header__img--services {
+  height: 280px;
+  
+}
 
 .logo,
 .menu,
