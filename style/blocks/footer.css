@@ -10,10 +10,15 @@
   justify-content: space-between;
   align-items: center;
 }
-
-.footer__container--border {
+.footer.border {
+  padding-top: 0;
+}
+.footer.border .container {
+  padding-top: 45px;
   border-top: 2px solid rgba(255, 255, 255, .1);
 }
+
+
 .social__list {
   display: flex;
   justify-content: center;
