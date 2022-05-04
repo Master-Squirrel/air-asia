@@ -20,6 +20,9 @@
   float: left;
 }
 
+.logo__img--services {
+  width: 100px;
+}
 .menu {
   margin-left: 79px;
   margin-top: 43px; 
