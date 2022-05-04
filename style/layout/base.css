@@ -90,15 +90,18 @@ img {
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  max-width: 1141px;
-  /* min-width: 1141px; Временно установлено для того, чтобы блоки не съезжали при уменьшении размера окна */
-  position: relative;  
+  max-width: 1141px; 
 }
 
-.container--services {
+.container--services, .header__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   
+}
+
+.container--title {
+  margin-top: 85px;
 }
 
 .info-left__menu {

@@ -1,5 +1,5 @@
 .services {
-  margin-top: 432px;
+  margin-top: 123px;
 }
 
 .services__list {
@@ -23,7 +23,7 @@
   font-weight: bold;
   padding-top: 10px;
 }
-.services__description p {
+.services__description {
   color: #303030;
   font-size: 16px;
   line-height: 27px;

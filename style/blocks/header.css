@@ -1,31 +1,9 @@
-.header {
-  height: 77px;
-}
 
-.header__container {
-  display: flex;
-  justify-content:space-between;
-}
-
-.header__img {
-  position: absolute;
-  width: 100%; 
-}
-
-.logo,
-.contacts {
-  margin-top: 29px;
-}
-
-.logo {
-  float: left;
-}
-.logo__img--services {
+.logo__img--big {
   width: 100px;
 }
 
-.menu {
-  margin-left: 79px;
-  margin-top: 43px; 
-  flex: 1;
+.name-page {
+  width: 50%;
+  
 }

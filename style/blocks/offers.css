@@ -1,5 +1,5 @@
 .offers {
-  margin-top: 253px;
+  margin-top: 247px;
 }
 
 
@@ -32,19 +32,14 @@
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  margin-bottom: 23px;
+  margin-bottom: 20px;
 }
 .offers__features {
   display: flex;
-  
-  /* align-items: baseline; */
+  margin-bottom: 24px;
+
 }
-.offers__feature {
-  /* display: inline-block; */
-   
-  
-  /* vertical-align: middle; */
-}
+
 
 .offers__feature:first-child {
   margin-right: 25px;
@@ -69,7 +64,7 @@
 }
 
 .offers__text {
-  margin: 24px 0px;
+  margin-bottom: 24px ;
 
   color: #303030;
   font-size: 14px;
