@@ -1,37 +1,6 @@
-
-.service--title {
-  margin-top: 119px;
-  font-size: 72px;
-}
-
-.breadcrumbs {
-  margin-top: 132px;
-  color: #9a9a9a;
-}
-
-.breadcrumbs__list {
-  
-  display: flex;
-}
-
-.breadcrumbs__link--active {
-font-weight: bold;
-}
-
-.breadcrumbs__item::after {
-content: " / ";
-}
-
-.breadcrumbs__item:last-child:after {
-  content: "";
-}
-
-
-
 .services {
-  margin-top: 120px;
+  margin-top: 432px;
 }
-
 
 .services__list {
   display: flex;

@@ -13,3 +13,9 @@
 .title--dark {
 	color: #000;
 }
+
+
+.title--service {
+  margin-top: 119px;
+  font-size: 72px;
+}

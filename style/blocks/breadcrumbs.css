@@ -1,0 +1,21 @@
+.breadcrumbs {
+  margin-top: 132px;
+  color: #9a9a9a;
+}
+
+.breadcrumbs__list {
+  
+  display: flex;
+}
+
+.breadcrumbs__link--active {
+font-weight: bold;
+}
+
+.breadcrumbs__item::after {
+content: " / ";
+}
+
+.breadcrumbs__item:last-child:after {
+  content: "";
+}
