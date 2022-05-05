@@ -10,8 +10,8 @@
 }
 
 .offers__item {
-  /* display: inline-block; */
-  width: 362px;    
+  /* width: 362px; */
+  width: calc(100%/3 - 18px);
   background: #fff;
   color: #303030;
   border-radius: 5px 5px 0px 0px;
@@ -28,12 +28,12 @@
 }
 
 .offers__title {
-
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
   margin-bottom: 20px;
 }
+
 .offers__features {
   display: flex;
   margin-bottom: 24px;
@@ -64,7 +64,7 @@
 }
 
 .offers__text {
-  margin-bottom: 24px ;
+  margin-bottom: 24px;
 
   color: #303030;
   font-size: 14px;
