@@ -10,8 +10,10 @@
 }
 
 .offers__item {
-  /* width: 362px; */
+  
   width: calc(100%/3 - 18px);
+  max-width: 362px;
+  max-height: 450px;
   background: #fff;
   color: #303030;
   border-radius: 5px 5px 0px 0px;

@@ -1,7 +1,7 @@
 .partners {
  background-color: #F4F5F5;
  margin-top:10px;
- padding-bottom: 40px;
+ padding-bottom: 20px;
 }
 
 .partners__header {
@@ -9,7 +9,7 @@
   font-size: 48px;
   font-weight: bold;
   padding-top: 88px;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
 
 .partners__list {
@@ -20,10 +20,23 @@
   
 }
 
-.partners__item {
-  padding-right: 30px;
+.partners__item {  
+  display: flex;
+  width: 250px;
+  height: 50px;
+  justify-content: flex-start;
+  margin-bottom: 80px;  
 }
 
+.partners__item:nth-child(4n) {
+  justify-content: flex-end;
+}
+.partners__link {
+  filter: grayscale(1);
+}
+.partners__link:hover {
+  filter: grayscale(0);
+}
 .partners__logo {
 margin-bottom: 72px;
 }
