@@ -1,7 +1,7 @@
 .partners {
  background-color: #F4F5F5;
  margin-top:10px;
- padding-bottom: 20px;
+ padding-bottom: 45px;
 }
 
 .partners__header {
@@ -9,23 +9,18 @@
   font-size: 48px;
   font-weight: bold;
   padding-top: 88px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .partners__list {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  
+  margin-bottom: 70px; 
 }
 
 .partners__item {  
-  display: flex;
-  width: 250px;
-  height: 50px;
-  justify-content: flex-start;
-  margin-bottom: 80px;  
+  margin-right: 10px;
 }
 
 .partners__item:nth-child(4n) {
@@ -36,7 +31,4 @@
 }
 .partners__link:hover {
   filter: grayscale(0);
-}
-.partners__logo {
-margin-bottom: 72px;
 }
