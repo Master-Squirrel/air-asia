@@ -88,7 +88,7 @@ img {
 }
 
 .wrapper__welcome {
-  background: url("../../img/bg-welcome.png") -130px -100px;
+  background: url("../../img/bg-welcome.png");
   display: flex;
   justify-content: center;
   align-items: center;

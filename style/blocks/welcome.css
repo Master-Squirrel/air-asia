@@ -8,10 +8,6 @@ flex-direction: column;
 justify-content: center;
 }
 
-.logo--hello {
-  width: 280px;
-}
-
 .welcome__subtitle {
   font-size: 18px;
   text-align: center;
