@@ -7,7 +7,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 
-animation: welcome .2s ease 3 alternate both;
+animation: opa .5s steps(1), welcome .2s ease .5s 5 alternate;
+transition: all 0.5s ease-out;
 }
 
 .welcome__subtitle {
@@ -15,12 +16,20 @@ animation: welcome .2s ease 3 alternate both;
   text-align: center;
 }
 
+@keyframes opa {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @keyframes welcome {
   from {
-    transform: scale(0%,0%)  ;
+    transform: scale(60%,60%)  ;
 
-  }
-  
+  }  
   to {
     transform: scale(100%,100%);
 
