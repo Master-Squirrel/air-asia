@@ -15,17 +15,24 @@
 }
 
 .button--light {
-	background: #ffffff;
-	border: 1px solid #F5170E;
-	color:#F5170E;
+  background: #ffffff;
+  border: 1px solid #F5170E;
+  color: #F5170E;
 }
 
 .button--hello {
   margin-top: 30px;
 }
+
 .button--about {
   margin-top: 44px;
 }
+
 .button--hello {
   margin-top: 50px;
+}
+
+.button--hello:hover {
+  background: #ffffff;
+  color: #F5170E;
 }
