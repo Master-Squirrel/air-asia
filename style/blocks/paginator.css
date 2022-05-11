@@ -4,18 +4,20 @@
   height: 100px;
 }
 
-.paginator--services {
+.paginator--dark {
   color: #000;
   margin-top: 20px;
 }
-
-.paginator--services .paginator__num {
+.paginator--reviews {
+  margin-top: 75px;
+}
+.paginator--dark .paginator__num {
 color: #000;
 }
-.paginator--services .paginator__num:hover {
+.paginator--dark .paginator__num:hover {
   color: #fff;
 }
-.paginator--services .paginator__num:before {
+.paginator--dark .paginator__num:before {
   background-color: #F5170E;
 }
 
