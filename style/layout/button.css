@@ -6,12 +6,15 @@
   cursor: pointer;
   text-align: center;
   background: #F5170E;
+  border: 1px solid #F5170E;
   border-radius: 35px;
 
   color: #fff;
   font-size: 14px;
   line-height: 16px;
   font-weight: bold;
+
+  transition: color .4s;
 }
 
 .button--light {
@@ -32,7 +35,14 @@
   margin-top: 50px;
 }
 
-.button--hello:hover {
+.button:hover {
   background: #ffffff;
   color: #F5170E;
+  
+  
+}
+.button--light:hover {
+  background:#F5170E;
+  color: #fff;
+  
 }
