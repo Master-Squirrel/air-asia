@@ -30,16 +30,25 @@
 .button--about {
   margin-top: 44px;
 }
-
+.button--form {
+  border:0;
+  font-weight: normal;
+  transition: .4s;
+  margin-right: 17px;
+}
+.button--form:last-child {
+  margin-right: 0;
+}
+.button--dark {
+  background-color: #2B2B2B;
+}
 .button--hello {
   margin-top: 50px;
 }
 
 .button:hover {
   background: #ffffff;
-  color: #F5170E;
-  
-  
+  color: #F5170E;  
 }
 .button--light:hover {
   background:#F5170E;
