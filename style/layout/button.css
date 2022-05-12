@@ -24,7 +24,7 @@
 }
 
 .button--hello {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .button--about {
@@ -41,9 +41,6 @@
 }
 .button--dark {
   background-color: #2B2B2B;
-}
-.button--hello {
-  margin-top: 50px;
 }
 
 .button:hover {

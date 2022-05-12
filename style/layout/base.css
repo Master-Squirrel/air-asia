@@ -92,12 +92,6 @@ img {
 
 }
 
-.wrapper__welcome {
-  background: url("../../img/bg-welcome.png");
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .container {
   margin: 0 auto;
