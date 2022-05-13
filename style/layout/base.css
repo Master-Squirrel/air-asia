@@ -83,7 +83,7 @@ img {
 
 .wrapper__content--main {
   position: relative;
-  background: url("../../img/bg.jpg") no-repeat;
+  background: url("../../img/bg.jpg") center no-repeat;
 }
 
 .wrapper__content--services {
