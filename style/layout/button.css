@@ -22,11 +22,6 @@
   border: 1px solid #F5170E;
   color: #F5170E;
 }
-
-.button--hello {
-  margin-top: 50px;
-}
-
 .button--about {
   margin-top: 44px;
 }
@@ -56,4 +51,12 @@
 .button--form:hover {
   background-color: #8E8E8E;
   color: #fff;
+}
+.button--hello {
+  margin-top: 50px;
+}
+.button--hello:hover {
+  background-color: #DA0100;
+  color: #fff;
+  transition: .3s;
 }
