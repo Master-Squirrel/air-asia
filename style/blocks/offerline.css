@@ -1,32 +1,31 @@
-.adv {
+.offerline {
   background: url(../../img/rectangle.png);
   min-height: 363px;
 }
-.adv__content {
+.offerline__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
-.adv__title {
+.offerline__title {
   font-size: 48px;
   font-weight: bold;
   line-height: 56px;
   color: #fff;
-
+  
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.adv__title, .adv__img {
+.offerline__title, .offerline__img {
   width: 50%;
 }
 
-.adv__img {
+.offerline__img {
   width: 487px;
   height: 341px;
   background: url(../../img/couple.png) no-repeat;
-
   align-self: flex-end;
 }

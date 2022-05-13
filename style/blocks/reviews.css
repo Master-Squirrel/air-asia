@@ -18,9 +18,12 @@
   margin-right: 27px;
 }
 
+.review__photo-elem {
+  border-radius: 50%;
+}
 
 .reviews__item {
-
+ 
   width: 557px;
 
   background-color: #F4F5F5;

@@ -131,12 +131,13 @@ img {
   flex: 1;
 }
 
-.container--adv {
+.container--offerline {
   height: 363px;
 }
 
 .container--form {
-  margin-bottom: 96px;
+  /* margin-bottom: 96px; */
+  padding-bottom: 96px;
 }
 
 .tag {

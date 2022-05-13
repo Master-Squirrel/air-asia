@@ -11,10 +11,12 @@
   width: 100%;
   display: flex;
   padding-bottom: 50px;
+  
 }
 .services__img {
   margin-right: 57px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .services__content {
   padding-top: 10px;
@@ -24,6 +26,7 @@
   color: #000;
   font-weight: bold;
   padding-bottom: 28px;
+  cursor: pointer;
 }
 .services__description {
   color: #303030;

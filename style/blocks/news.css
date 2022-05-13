@@ -8,12 +8,11 @@
 }
 
 .news__item {
-
-
   width: 557px;
   height: 394px;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .news__item:last-child {
