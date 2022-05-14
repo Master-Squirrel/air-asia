@@ -54,9 +54,10 @@
 }
 .button--hello {
   margin-top: 50px;
+  
 }
 .button--hello:hover {
   background-color: #DA0100;
   color: #fff;
-  transition: .3s;
+  
 }
